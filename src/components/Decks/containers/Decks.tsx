@@ -24,7 +24,7 @@ const decks: DecksType = {
 }
 
 const Decks = () => {
-	return <DecksComponent />
+	return <DecksComponent decks={decks} />
 }
 
 export default Decks
