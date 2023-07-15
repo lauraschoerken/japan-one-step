@@ -1,4 +1,4 @@
-import { Card, Decks } from 'models/Deck'
+import { Card, Decks as DecksType } from 'models/Deck'
 import DecksComponent from '../components/DecksComponent'
 
 const card1: Card = { id: '1', japanese_value: 'あ', romanji_value: 'a' }
@@ -8,7 +8,7 @@ const card4: Card = { id: '1', japanese_value: 'あ', romanji_value: 'a' }
 const card5: Card = { id: '1', japanese_value: 'あ', romanji_value: 'a' }
 const card6: Card = { id: '1', japanese_value: 'あ', romanji_value: 'a' }
 
-const decks: Decks = {
+const decks: DecksType = {
 	hiragana: {
 		name: 'hiragana',
 		cards: [card1, card2],
