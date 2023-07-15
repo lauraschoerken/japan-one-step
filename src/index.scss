@@ -1,0 +1,63 @@
+@import './design/design.scss';
+
+* {
+	font-family: $font;
+	box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+.App,
+.App > div {
+	margin: 0;
+	height: 100%;
+}
+
+h1 {
+	font-family: $font;
+	font-size: 2.3rem;
+	line-height: 46px;
+	font-weight: 500;
+	color: $primary;
+}
+
+h2 {
+	font-family: $font;
+	font-size: 2rem;
+	line-height: 40px;
+	font-weight: 500;
+	color: $primary;
+}
+
+h3 {
+	font-family: $font;
+	font-size: 1.5rem;
+	line-height: 32px;
+	font-weight: 500;
+	color: $primary;
+}
+
+h4 {
+	font-family: $font;
+	font-size: 1.25rem;
+	line-height: 38px;
+	font-weight: 500;
+	color: $primary;
+}
+
+h5 {
+	font-family: $font;
+	font-size: 1rem;
+	line-height: 24px;
+	font-weight: 700;
+	color: $primary;
+}
+
+body {
+	font-family: $font;
+	font-size: 0.85rem;
+	line-height: 22px;
+	font-weight: 400;
+	color: $primary;
+}
