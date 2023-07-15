@@ -10,10 +10,15 @@
 		"preview": "vite preview"
 	},
 	"dependencies": {
+		"@reduxjs/toolkit": "^1.9.5",
 		"i18next": "^23.2.11",
+		"path": "^0.12.7",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
-		"react-i18next": "^13.0.2"
+		"react-i18next": "^13.0.2",
+		"react-redux": "^8.1.1",
+		"redux-persist": "^6.0.0",
+		"url": "^0.11.1"
 	},
 	"devDependencies": {
 		"@types/react": "^18.2.14",
