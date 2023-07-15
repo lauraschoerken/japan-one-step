@@ -18,6 +18,7 @@ export default defineConfig({
 			utils: path.resolve(dirname(fileURLToPath(import.meta.url)), './src/utils'),
 			stores: path.resolve(dirname(fileURLToPath(import.meta.url)), './src/stores'),
 			mock: path.resolve(dirname(fileURLToPath(import.meta.url)), './src/mock'),
+			design: path.resolve(dirname(fileURLToPath(import.meta.url)), './src/design'),
 		},
 	},
 })
