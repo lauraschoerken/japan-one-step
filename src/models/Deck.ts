@@ -4,8 +4,9 @@ export interface Card {
 	romanji_value: string
 }
 
+export type DeckName = 'hiragana' | 'katakana' | 'kanji'
 export interface Deck {
-	name: 'hiragana' | 'katakana' | 'kanji'
+	name: DeckName
 	cards: Card[]
 }
 
