@@ -1,3 +1,5 @@
+import './HomeComponent.scss'
+
 const HomeComponent = () => {
 	return (
 		<div>
