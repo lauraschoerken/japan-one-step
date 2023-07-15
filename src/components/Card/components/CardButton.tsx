@@ -1,5 +1,5 @@
+import { Difficulty } from 'models/Difficulty'
 import { useTranslation } from 'react-i18next'
-import { Difficulty } from './CardComponent'
 
 interface Props {
 	difficulty: Difficulty
