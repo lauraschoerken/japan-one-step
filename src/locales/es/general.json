@@ -1,0 +1,83 @@
+{
+	"general": {
+		"accept": "Aceptar",
+		"delete": "Borrar",
+		"true": "Verdadero",
+		"false": "Falso",
+		"manage": "Configurar",
+		"details": "Ver detalles",
+		"search": "Buscar",
+		"save": "Guardar",
+		"yes": "Si",
+		"no": "No",
+		"cancel": "Cancelar",
+		"continue": "Continuar",
+		"none": "Ninguno",
+		"update": "Actualizar",
+		"select": "Seleccionar",
+		"loading": "Cargando..."
+	},
+	"errors": {
+		"required": "Este campo es obligatorio",
+		"mail_not_valid": "El email no es valido",
+		"number": "Este campo debe ser numérico",
+		"min_characters": "Este campo debe tener al menos {{num}} caracteres",
+		"max_characters": "Este campo debe tener como máximo {{num}} caracteres",
+		"wrong_credentials": "Credenciales incorrectas",
+		"something_went_wrong": "Algo salió mal. Por favor, vuelva a intentarlo.",
+		"login_failed": "No se ha podido iniciar la sesion. Intentalo mas tarde",
+		"sso_login_failed": "Existen problemas con la autenticación corporativa. Estamos trabajando en ello y sacaremos una actualización lo antes posible. Disculpa las molestias",
+		"server_failed": "No se ha podido acceder al servidor. Inténtalo mas tarde",
+		"cannot_create": "No se ha podido crear la cuenta. Intentalo mas tarde",
+		"email_already_registered": "El correo ya esta registrado",
+		"obsolete_version": "Version obsoleta",
+		"obsolete_text": "Por favor, actualiza la app a la ultima version",
+		"without_conexion": "Sin conexion",
+		"without_conexion_text": "Utilizamos tu conexión con internet para que el app pueda funcionar",
+		"try_again": "Volver a intentarlo",
+		"sync_data": "Error sincronizando datos, intentalo de nuevo más tarde",
+		"user_not_found": "No existe este usuario. Por favor, inténtalo de nuevo.",
+		"unexpected_error": "Hubo un error inesperado.",
+		"new_password_required": "Es necesario introducir una nueva contraseña",
+		"repeat_password_required": "Es necesario repetir la contraseña"
+	},
+	"login": {
+		"title": "Bienvenido a JAPAN ONE STEP",
+		"subtitle": "Ingrese su dirección de correo electrónico y contraseña para acceder",
+		"email": "Email",
+		"password": "Contraseña",
+		"forgot_password": "¿Ha olvidado su contraseña?",
+		"button": "Iniciar sesión",
+		"password_forgotten": {
+			"title": "Recuperar contraseña",
+			"subtitle": "Ingrese su dirección de correo electrónico. Le enviaremos un enlace para actualizar su contraseña.",
+			"email": "Email",
+			"button": "Enviar"
+		},
+		"password_change_email_sent": {
+			"title": "Revise su correo electrónico",
+			"subtitle": {
+				"start": "Revise su bandeja de entrada.",
+				"end": "Le hemos enviado un correo electrónico a la dirección {{email}} para continuar con la recuperación de su contraseña."
+			}
+		},
+		"password_recovery": {
+			"title": "Actualizar contraseña",
+			"subtitle": "Introduzca su nueva contraseña",
+			"new_password": "Nueva contraseña",
+			"repeat_password": "Repetir contraseña"
+		},
+		"password_recovery_completed": {
+			"title": "Contraseña actualizada",
+			"subtitle": "Su contraseña se ha actualizado correctamente. Ahora puede iniciar sesión con su nueva contraseña.",
+			"button": "Iniciar sesión"
+		}
+	},
+	"modal": {
+		"checkbox": {
+			"select_all": "Seleccionar todos",
+			"search": "Buscar",
+			"not_found": "Académico no encontrado"
+		}
+	}
+}

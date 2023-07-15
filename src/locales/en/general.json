@@ -1,0 +1,83 @@
+{
+	"general": {
+		"accept": "Accept",
+		"delete": "Delete",
+		"true": "True",
+		"false": "False",
+		"manage": "Manage",
+		"details": "View details",
+		"search": "Search",
+		"save": "Save",
+		"yes": "Yes",
+		"no": "No",
+		"cancel": "Cancel",
+		"continue": "Continue",
+		"none": "None",
+		"update": "Update",
+		"select": "Select",
+		"loading": "Loading..."
+	},
+	"errors": {
+		"required": "This field is required",
+		"mail_not_valid": "The email is not valid",
+		"number": "This field must be numeric",
+		"min_characters": "This field must have at least {{num}} characters",
+		"max_characters": "This field must have a maximum of {{num}} characters",
+		"wrong_credentials": "Incorrect credentials",
+		"something_went_wrong": "Something went wrong. Please try again.",
+		"login_failed": "Failed to log in. Please try again later",
+		"sso_login_failed": "There are issues with corporate authentication. We are working on it and will release an update as soon as possible. Apologies for the inconvenience",
+		"server_failed": "Failed to access the server. Please try again later",
+		"cannot_create": "Failed to create the account. Please try again later",
+		"email_already_registered": "The email is already registered",
+		"obsolete_version": "Obsolete version",
+		"obsolete_text": "Please update the app to the latest version",
+		"without_conexion": "No connection",
+		"without_conexion_text": "We use your internet connection for the app to function",
+		"try_again": "Try again",
+		"sync_data": "Error syncing data, please try again later",
+		"user_not_found": "This user does not exist. Please try again.",
+		"unexpected_error": "An unexpected error occurred.",
+		"new_password_required": "A new password is required",
+		"repeat_password_required": "Please repeat the password"
+	},
+	"login": {
+		"title": "Welcome to JAPAN ONE STEP",
+		"subtitle": "Enter your email address and password to access",
+		"email": "Email",
+		"password": "Password",
+		"forgot_password": "Forgot your password?",
+		"button": "Log in",
+		"password_forgotten": {
+			"title": "Recover Password",
+			"subtitle": "Enter your email address. We will send you a link to update your password.",
+			"email": "Email",
+			"button": "Send"
+		},
+		"password_change_email_sent": {
+			"title": "Check your email",
+			"subtitle": {
+				"start": "Check your inbox.",
+				"end": "We have sent an email to the address {{email}} to continue with your password recovery."
+			}
+		},
+		"password_recovery": {
+			"title": "Update Password",
+			"subtitle": "Enter your new password",
+			"new_password": "New password",
+			"repeat_password": "Repeat password"
+		},
+		"password_recovery_completed": {
+			"title": "Password updated",
+			"subtitle": "Your password has been successfully updated. You can now log in with your new password.",
+			"button": "Log in"
+		}
+	},
+	"modal": {
+		"checkbox": {
+			"select_all": "Select all",
+			"search": "Search",
+			"not_found": "Academic not found"
+		}
+	}
+}
