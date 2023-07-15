@@ -2,6 +2,7 @@ export interface Card {
 	id: string
 	japanese_value: string
 	romanji_value: string
+	reverse: boolean
 }
 
 export type DeckName = 'hiragana' | 'katakana' | 'kanji'
