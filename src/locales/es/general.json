@@ -79,5 +79,21 @@
 			"search": "Buscar",
 			"not_found": "Académico no encontrado"
 		}
+	},
+	"card": {
+		"buttons": {
+			"easy": {
+				"name": "Fácil"
+			},
+			"medium": {
+				"name": "Moderado"
+			},
+			"hard": {
+				"name": "Difícil"
+			},
+			"not_guessed": {
+				"name": "Incorrecto"
+			}
+		}
 	}
 }

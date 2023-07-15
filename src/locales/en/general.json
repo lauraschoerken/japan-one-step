@@ -79,5 +79,21 @@
 			"search": "Search",
 			"not_found": "Academic not found"
 		}
+	},
+	"card": {
+		"buttons": {
+			"easy": {
+				"name": "Easy"
+			},
+			"medium": {
+				"name": "Moderate"
+			},
+			"hard": {
+				"name": "Hard"
+			},
+			"not_guessed": {
+				"name": "Incorrect"
+			}
+		}
 	}
 }
