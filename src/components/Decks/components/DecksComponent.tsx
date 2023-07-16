@@ -1,6 +1,6 @@
 import { DeckName, Decks } from 'models/Deck'
 import './DecksComponent.scss'
-import { decksAndSimbol } from 'utils/constants'
+import { decksAndSymbol, hiragana } from 'utils/constants'
 import DeckBox from './DeckBox'
 import { useState } from 'react'
 
@@ -9,19 +9,19 @@ interface Props {
 }
 
 const DecksComponent: React.FC<Props> = () => {
-	const [selected, setSelected] = useState<DeckName>('hiragana')
+	const [selected, setSelected] = useState<DeckName>(hiragana)
 	const onValidate = (deckRecived: DeckName) => {
 		setSelected(deckRecived)
 	}
 
 	return (
 		<div className='decks'>
-			{decksAndSimbol.map((deckSimbol, index) => (
+			{decksAndSymbol.map((deckSymbol, index) => (
 				<DeckBox
-					deckSimbol={deckSimbol}
+					deckSymbol={deckSymbol}
 					key={index}
 					onValidate={onValidate}
-					isSelected={deckSimbol.name === selected}
+					isSelected={deckSymbol.name === selected}
 				/>
 			))}
 		</div>
