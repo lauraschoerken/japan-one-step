@@ -4,7 +4,6 @@
     justify-content: space-evenly;
     flex-direction: column;
     height: 100%;
-
     .deck{
         cursor: pointer;
         font-size: 5rem;
@@ -18,18 +17,8 @@
         border-radius: 1rem;
         margin: 1rem;
         box-shadow:  -25px 15px 1px 1px rgb(168, 168, 168);
-
+        transition: all 0.5s;
     }
-
-    // .hiragana:first-child{
-    //     box-shadow:  -25px 15px 1px 1px rgb(168, 168, 168), -50px 30px 1px 1px rgba(82, 82, 82, 0.75);
-    //     //box-shadow:  -25px 15px 1px 1px rgb(168, 168, 168);
-    // }
-
-    // .katakana:nth-child(2n+1){
-    //     box-shadow:  -25px 15px 1px 1px rgb(168, 168, 168), -50px 30px 1px 1px rgba(82, 82, 82, 0.75);
-    // }
-
     .selected {
         box-shadow: -25px 15px 1px 1px rgb(168, 168, 168), -50px 30px 1px 1px rgba(82, 82, 82, 0.75);
     }
