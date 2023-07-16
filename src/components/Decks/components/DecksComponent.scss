@@ -1,0 +1,25 @@
+.decks{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100%;
+    .deck{
+        cursor: pointer;
+        font-size: 5rem;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        aspect-ratio: 1;
+        width: 12rem;
+        background-color: white;
+        border-radius: 1rem;
+        margin: 1rem;
+        box-shadow:  -25px 15px 1px 1px rgb(168, 168, 168);
+        transition: all 0.5s;
+    }
+    .selected {
+        box-shadow: -25px 15px 1px 1px rgb(168, 168, 168), -50px 30px 1px 1px rgba(82, 82, 82, 0.75);
+    }
+}
