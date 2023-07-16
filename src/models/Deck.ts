@@ -16,3 +16,8 @@ export interface Decks {
 	katakana: Deck
 	kanji: Deck
 }
+
+export interface DeckSimbol {
+	name: DeckName
+	simbol: string
+}
