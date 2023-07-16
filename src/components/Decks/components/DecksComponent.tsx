@@ -10,18 +10,18 @@ interface Props {
 
 const DecksComponent: React.FC<Props> = () => {
 	const [selected, setSelected] = useState<DeckName>(hiragana)
-	const onValidate = (deckRecived: DeckName) => {
+	const onClickActive = (deckRecived: DeckName) => {
 		setSelected(deckRecived)
 	}
 
 	return (
 		<div className='decks'>
-			{decksAndSymbol.map((deckSymbol, index) => (
+			{decksAndSymbol.map((deckNameAndSymbol, index) => (
 				<DeckBox
-					deckSymbol={deckSymbol}
+					deckNameAndSymbol={deckNameAndSymbol}
 					key={index}
-					onValidate={onValidate}
-					isSelected={deckSymbol.name === selected}
+					onClickActive={onClickActive}
+					isSelected={deckNameAndSymbol.name === selected}
 				/>
 			))}
 		</div>

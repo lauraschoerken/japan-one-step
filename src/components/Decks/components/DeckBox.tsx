@@ -1,19 +1,19 @@
-import { DeckName, DeckSymbol } from 'models/Deck'
+import { DeckName, DeckNameAndSymbol } from 'models/Deck'
 
 interface Props {
-	deckSymbol: DeckSymbol
-	onValidate: (deck: DeckName) => void
+	deckNameAndSymbol: DeckNameAndSymbol
+	onClickActive: (deck: DeckName) => void
 	isSelected?: boolean
 }
 
 const DeckBox: React.FC<Props> = (props) => {
-	const { deckSymbol, onValidate, isSelected } = props
+	const { deckNameAndSymbol, onClickActive, isSelected } = props
 
 	return (
 		<div
 			className={`deck ${isSelected ? 'selected' : ''}`}
-			onClick={() => onValidate(`${deckSymbol.name}`)}>
-			{`${deckSymbol.symbol}`}
+			onClick={() => onClickActive(`${deckNameAndSymbol.name}`)}>
+			{deckNameAndSymbol.symbol}
 		</div>
 	)
 }
