@@ -1,4 +1,4 @@
-import { hiragana, kanji, katakana } from "utils/constants"
+import { hiragana, hiragana_symbol, kanji, kanji_symbol, katakana, katakana_symbol } from "utils/constants"
 export interface Card {
 	id: string
 	japanese_value: string
@@ -7,6 +7,8 @@ export interface Card {
 }
 
 export type DeckName = typeof hiragana | typeof katakana | typeof kanji
+export type DeckSymbol= typeof hiragana_symbol | typeof katakana_symbol | typeof kanji_symbol
+
 export interface Deck {
 	name: DeckName
 	cards: Card[]
@@ -18,7 +20,7 @@ export interface Decks {
 	kanji: Deck
 }
 
-export interface DeckSymbol {
+export interface DeckNameAndSymbol {
 	name: DeckName
-	symbol: string
+	symbol: DeckSymbol
 }
