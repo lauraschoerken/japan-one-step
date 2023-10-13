@@ -1,20 +1,17 @@
-import { Deck, DeckName, Decks } from 'models/Deck'
+import { Deck, Decks } from 'models/Deck'
 import './DecksComponent.scss'
-import { hiragana } from 'utils/constants'
 import DeckBox from './DeckBox'
-import { useState } from 'react'
 
 interface Props {
 	decks: Decks
 	setSelectedDeck: (deck: Deck) => void
+	selectedDeck: Deck
 }
 
 const DecksComponent: React.FC<Props> = (props) => {
-	const { decks, setSelectedDeck } = props
-	const [selected, setSelected] = useState<DeckName>(hiragana)
+	const { decks, setSelectedDeck, selectedDeck } = props
 	const onClickActive = (deck: Deck) => {
 		setSelectedDeck(deck)
-		setSelected(deck.name)
 	}
 
 	return (
@@ -24,7 +21,7 @@ const DecksComponent: React.FC<Props> = (props) => {
 					deck={deck}
 					key={index}
 					onClickActive={onClickActive}
-					isSelected={deck.name === selected}
+					isSelected={selectedDeck.name === deck.name}
 				/>
 			))}
 		</div>

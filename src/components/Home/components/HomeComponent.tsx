@@ -17,7 +17,7 @@ const HomeComponent = () => {
 			</div> */}
 			<div className='body'>
 				<div className='decks'>
-					<Decks decks={decks} setSelectedDeck={setSelectedDeck} />
+					<Decks decks={decks} setSelectedDeck={setSelectedDeck} selectedDeck={selectedDeck} />
 				</div>
 				<div className='cards'>
 					<Card deck={selectedDeck} />
