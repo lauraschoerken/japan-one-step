@@ -1,0 +1,626 @@
+[
+	{
+		"id": "1",
+		"japanese_value": "ア",
+		"romanji_value": "a",
+		"reverse": false
+	},
+	{
+		"id": "2",
+		"japanese_value": "イ",
+		"romanji_value": "i",
+		"reverse": false
+	},
+	{
+		"id": "3",
+		"japanese_value": "ウ",
+		"romanji_value": "u",
+		"reverse": false
+	},
+	{
+		"id": "4",
+		"japanese_value": "エ",
+		"romanji_value": "e",
+		"reverse": false
+	},
+	{
+		"id": "5",
+		"japanese_value": "オ",
+		"romanji_value": "o",
+		"reverse": false
+	},
+	{
+		"id": "6",
+		"japanese_value": "カ",
+		"romanji_value": "ka",
+		"reverse": false
+	},
+	{
+		"id": "7",
+		"japanese_value": "キ",
+		"romanji_value": "ki",
+		"reverse": false
+	},
+	{
+		"id": "8",
+		"japanese_value": "ク",
+		"romanji_value": "ku",
+		"reverse": false
+	},
+	{
+		"id": "9",
+		"japanese_value": "ケ",
+		"romanji_value": "ke",
+		"reverse": false
+	},
+	{
+		"id": "10",
+		"japanese_value": "コ",
+		"romanji_value": "ko",
+		"reverse": false
+	},
+	{
+		"id": "11",
+		"japanese_value": "ガ",
+		"romanji_value": "ga",
+		"reverse": false
+	},
+	{
+		"id": "12",
+		"japanese_value": "ギ",
+		"romanji_value": "gi",
+		"reverse": false
+	},
+	{
+		"id": "13",
+		"japanese_value": "グ",
+		"romanji_value": "gu",
+		"reverse": false
+	},
+	{
+		"id": "14",
+		"japanese_value": "ゲ",
+		"romanji_value": "ge",
+		"reverse": false
+	},
+	{
+		"id": "15",
+		"japanese_value": "ゴ",
+		"romanji_value": "go",
+		"reverse": false
+	},
+	{
+		"id": "16",
+		"japanese_value": "サ",
+		"romanji_value": "sa",
+		"reverse": false
+	},
+	{
+		"id": "17",
+		"japanese_value": "シ",
+		"romanji_value": "shi",
+		"reverse": false
+	},
+	{
+		"id": "18",
+		"japanese_value": "ス",
+		"romanji_value": "su",
+		"reverse": false
+	},
+	{
+		"id": "19",
+		"japanese_value": "セ",
+		"romanji_value": "se",
+		"reverse": false
+	},
+	{
+		"id": "20",
+		"japanese_value": "ソ",
+		"romanji_value": "so",
+		"reverse": false
+	},
+	{
+		"id": "21",
+		"japanese_value": "ザ",
+		"romanji_value": "za",
+		"reverse": false
+	},
+	{
+		"id": "22",
+		"japanese_value": "ジ",
+		"romanji_value": "ji",
+		"reverse": false
+	},
+	{
+		"id": "23",
+		"japanese_value": "ズ",
+		"romanji_value": "zu",
+		"reverse": false
+	},
+	{
+		"id": "24",
+		"japanese_value": "ゼ",
+		"romanji_value": "ze",
+		"reverse": false
+	},
+	{
+		"id": "25",
+		"japanese_value": "ゾ",
+		"romanji_value": "zo",
+		"reverse": false
+	},
+	{
+		"id": "26",
+		"japanese_value": "タ",
+		"romanji_value": "ta",
+		"reverse": false
+	},
+	{
+		"id": "27",
+		"japanese_value": "チ",
+		"romanji_value": "chi",
+		"reverse": false
+	},
+	{
+		"id": "28",
+		"japanese_value": "ツ",
+		"romanji_value": "tsu",
+		"reverse": false
+	},
+	{
+		"id": "29",
+		"japanese_value": "テ",
+		"romanji_value": "te",
+		"reverse": false
+	},
+	{
+		"id": "30",
+		"japanese_value": "ト",
+		"romanji_value": "to",
+		"reverse": false
+	},
+	{
+		"id": "31",
+		"japanese_value": "ダ",
+		"romanji_value": "da",
+		"reverse": false
+	},
+	{
+		"id": "32",
+		"japanese_value": "ヂ",
+		"romanji_value": "ji",
+		"reverse": false
+	},
+	{
+		"id": "33",
+		"japanese_value": "ヅ",
+		"romanji_value": "zu",
+		"reverse": false
+	},
+	{
+		"id": "34",
+		"japanese_value": "デ",
+		"romanji_value": "de",
+		"reverse": false
+	},
+	{
+		"id": "35",
+		"japanese_value": "ド",
+		"romanji_value": "do",
+		"reverse": false
+	},
+	{
+		"id": "36",
+		"japanese_value": "ナ",
+		"romanji_value": "na",
+		"reverse": false
+	},
+	{
+		"id": "37",
+		"japanese_value": "ニ",
+		"romanji_value": "ni",
+		"reverse": false
+	},
+	{
+		"id": "38",
+		"japanese_value": "ヌ",
+		"romanji_value": "nu",
+		"reverse": false
+	},
+	{
+		"id": "39",
+		"japanese_value": "ネ",
+		"romanji_value": "ne",
+		"reverse": false
+	},
+	{
+		"id": "40",
+		"japanese_value": "ノ",
+		"romanji_value": "no",
+		"reverse": false
+	},
+	{
+		"id": "41",
+		"japanese_value": "ハ",
+		"romanji_value": "ha",
+		"reverse": false
+	},
+	{
+		"id": "42",
+		"japanese_value": "ヒ",
+		"romanji_value": "hi",
+		"reverse": false
+	},
+	{
+		"id": "43",
+		"japanese_value": "フ",
+		"romanji_value": "fu",
+		"reverse": false
+	},
+	{
+		"id": "44",
+		"japanese_value": "ヘ",
+		"romanji_value": "he",
+		"reverse": false
+	},
+	{
+		"id": "45",
+		"japanese_value": "ホ",
+		"romanji_value": "ho",
+		"reverse": false
+	},
+	{
+		"id": "46",
+		"japanese_value": "バ",
+		"romanji_value": "ba",
+		"reverse": false
+	},
+	{
+		"id": "47",
+		"japanese_value": "ビ",
+		"romanji_value": "bi",
+		"reverse": false
+	},
+	{
+		"id": "48",
+		"japanese_value": "ブ",
+		"romanji_value": "bu",
+		"reverse": false
+	},
+	{
+		"id": "49",
+		"japanese_value": "ベ",
+		"romanji_value": "be",
+		"reverse": false
+	},
+	{
+		"id": "50",
+		"japanese_value": "ボ",
+		"romanji_value": "bo",
+		"reverse": false
+	},
+	{
+		"id": "51",
+		"japanese_value": "パ",
+		"romanji_value": "pa",
+		"reverse": false
+	},
+	{
+		"id": "52",
+		"japanese_value": "ピ",
+		"romanji_value": "pi",
+		"reverse": false
+	},
+	{
+		"id": "53",
+		"japanese_value": "プ",
+		"romanji_value": "pu",
+		"reverse": false
+	},
+	{
+		"id": "54",
+		"japanese_value": "ペ",
+		"romanji_value": "pe",
+		"reverse": false
+	},
+	{
+		"id": "55",
+		"japanese_value": "ポ",
+		"romanji_value": "po",
+		"reverse": false
+	},
+	{
+		"id": "56",
+		"japanese_value": "マ",
+		"romanji_value": "ma",
+		"reverse": false
+	},
+	{
+		"id": "57",
+		"japanese_value": "ミ",
+		"romanji_value": "mi",
+		"reverse": false
+	},
+	{
+		"id": "58",
+		"japanese_value": "ム",
+		"romanji_value": "mu",
+		"reverse": false
+	},
+	{
+		"id": "59",
+		"japanese_value": "メ",
+		"romanji_value": "me",
+		"reverse": false
+	},
+	{
+		"id": "60",
+		"japanese_value": "モ",
+		"romanji_value": "mo",
+		"reverse": false
+	},
+	{
+		"id": "61",
+		"japanese_value": "ヤ",
+		"romanji_value": "ya",
+		"reverse": false
+	},
+	{
+		"id": "62",
+		"japanese_value": "ユ",
+		"romanji_value": "yu",
+		"reverse": false
+	},
+	{
+		"id": "63",
+		"japanese_value": "ヨ",
+		"romanji_value": "yo",
+		"reverse": false
+	},
+	{
+		"id": "64",
+		"japanese_value": "ラ",
+		"romanji_value": "ra",
+		"reverse": false
+	},
+	{
+		"id": "65",
+		"japanese_value": "リ",
+		"romanji_value": "ri",
+		"reverse": false
+	},
+	{
+		"id": "66",
+		"japanese_value": "ル",
+		"romanji_value": "ru",
+		"reverse": false
+	},
+	{
+		"id": "67",
+		"japanese_value": "レ",
+		"romanji_value": "re",
+		"reverse": false
+	},
+	{
+		"id": "68",
+		"japanese_value": "ロ",
+		"romanji_value": "ro",
+		"reverse": false
+	},
+	{
+		"id": "69",
+		"japanese_value": "ワ",
+		"romanji_value": "wa",
+		"reverse": false
+	},
+	{
+		"id": "70",
+		"japanese_value": "ヲ",
+		"romanji_value": "wo",
+		"reverse": false
+	},
+	{
+		"id": "71",
+		"japanese_value": "ン",
+		"romanji_value": "n",
+		"reverse": false
+	},
+	{
+		"id": "72",
+		"japanese_value": "キャ",
+		"romanji_value": "kya",
+		"reverse": false
+	},
+	{
+		"id": "73",
+		"japanese_value": "キュ",
+		"romanji_value": "kyu",
+		"reverse": false
+	},
+	{
+		"id": "74",
+		"japanese_value": "キョ",
+		"romanji_value": "kyo",
+		"reverse": false
+	},
+	{
+		"id": "75",
+		"japanese_value": "シャ",
+		"romanji_value": "sha",
+		"reverse": false
+	},
+	{
+		"id": "76",
+		"japanese_value": "シュ",
+		"romanji_value": "shu",
+		"reverse": false
+	},
+	{
+		"id": "77",
+		"japanese_value": "ショ",
+		"romanji_value": "sho",
+		"reverse": false
+	},
+	{
+		"id": "78",
+		"japanese_value": "チャ",
+		"romanji_value": "cha",
+		"reverse": false
+	},
+	{
+		"id": "79",
+		"japanese_value": "チュ",
+		"romanji_value": "chu",
+		"reverse": false
+	},
+	{
+		"id": "80",
+		"japanese_value": "チョ",
+		"romanji_value": "cho",
+		"reverse": false
+	},
+	{
+		"id": "81",
+		"japanese_value": "ニャ",
+		"romanji_value": "nya",
+		"reverse": false
+	},
+	{
+		"id": "82",
+		"japanese_value": "ニュ",
+		"romanji_value": "nyu",
+		"reverse": false
+	},
+	{
+		"id": "83",
+		"japanese_value": "ニョ",
+		"romanji_value": "nyo",
+		"reverse": false
+	},
+	{
+		"id": "84",
+		"japanese_value": "ヒャ",
+		"romanji_value": "hya",
+		"reverse": false
+	},
+	{
+		"id": "85",
+		"japanese_value": "ヒュ",
+		"romanji_value": "hyu",
+		"reverse": false
+	},
+	{
+		"id": "86",
+		"japanese_value": "ヒョ",
+		"romanji_value": "hyo",
+		"reverse": false
+	},
+	{
+		"id": "87",
+		"japanese_value": "ミャ",
+		"romanji_value": "mya",
+		"reverse": false
+	},
+	{
+		"id": "88",
+		"japanese_value": "ミュ",
+		"romanji_value": "myu",
+		"reverse": false
+	},
+	{
+		"id": "89",
+		"japanese_value": "ミョ",
+		"romanji_value": "myo",
+		"reverse": false
+	},
+	{
+		"id": "90",
+		"japanese_value": "リャ",
+		"romanji_value": "rya",
+		"reverse": false
+	},
+	{
+		"id": "91",
+		"japanese_value": "リュ",
+		"romanji_value": "ryu",
+		"reverse": false
+	},
+	{
+		"id": "92",
+		"japanese_value": "リョ",
+		"romanji_value": "ryo",
+		"reverse": false
+	},
+	{
+		"id": "93",
+		"japanese_value": "ギャ",
+		"romanji_value": "gya",
+		"reverse": false
+	},
+	{
+		"id": "94",
+		"japanese_value": "ギュ",
+		"romanji_value": "gyu",
+		"reverse": false
+	},
+	{
+		"id": "95",
+		"japanese_value": "ギョ",
+		"romanji_value": "gyo",
+		"reverse": false
+	},
+	{
+		"id": "96",
+		"japanese_value": "ジャ",
+		"romanji_value": "ja",
+		"reverse": false
+	},
+	{
+		"id": "97",
+		"japanese_value": "ジュ",
+		"romanji_value": "ju",
+		"reverse": false
+	},
+	{
+		"id": "98",
+		"japanese_value": "ジョ",
+		"romanji_value": "jo",
+		"reverse": false
+	},
+	{
+		"id": "99",
+		"japanese_value": "ビャ",
+		"romanji_value": "bya",
+		"reverse": false
+	},
+	{
+		"id": "100",
+		"japanese_value": "ビュ",
+		"romanji_value": "byu",
+		"reverse": false
+	},
+	{
+		"id": "101",
+		"japanese_value": "ビョ",
+		"romanji_value": "byo",
+		"reverse": false
+	},
+	{
+		"id": "102",
+		"japanese_value": "ピャ",
+		"romanji_value": "pya",
+		"reverse": false
+	},
+	{
+		"id": "103",
+		"japanese_value": "ピュ",
+		"romanji_value": "pyu",
+		"reverse": false
+	},
+	{
+		"id": "104",
+		"japanese_value": "ピョ",
+		"romanji_value": "pyo",
+		"reverse": false
+	}
+]
