@@ -1,19 +1,27 @@
-import { DeckName, DeckNameAndSymbol } from 'models/Deck'
+import { Deck } from 'models/Deck'
+import {
+	hiragana,
+	hiragana_symbol,
+	kanji,
+	kanji_symbol,
+	katakana,
+	katakana_symbol,
+} from 'utils/constants'
 
 interface Props {
-	deckNameAndSymbol: DeckNameAndSymbol
-	onClickActive: (deck: DeckName) => void
+	deck: Deck
+	onClickActive: (deck: Deck) => void
 	isSelected?: boolean
 }
 
 const DeckBox: React.FC<Props> = (props) => {
-	const { deckNameAndSymbol, onClickActive, isSelected } = props
+	const { deck, onClickActive, isSelected } = props
 
 	return (
-		<div
-			className={`deck ${isSelected ? 'selected' : ''}`}
-			onClick={() => onClickActive(`${deckNameAndSymbol.name}`)}>
-			{deckNameAndSymbol.symbol}
+		<div className={`deck ${isSelected ? 'selected' : ''}`} onClick={() => onClickActive(deck)}>
+			{deck.name === hiragana && hiragana_symbol}
+			{deck.name === katakana && katakana_symbol}
+			{deck.name === kanji && kanji_symbol}
 		</div>
 	)
 }

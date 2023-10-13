@@ -1,27 +1,30 @@
-import { DeckName, Decks } from 'models/Deck'
+import { Deck, DeckName, Decks } from 'models/Deck'
 import './DecksComponent.scss'
-import { decksAndSymbol, hiragana } from 'utils/constants'
+import { hiragana } from 'utils/constants'
 import DeckBox from './DeckBox'
 import { useState } from 'react'
 
 interface Props {
 	decks: Decks
+	setSelectedDeck: (deck: Deck) => void
 }
 
-const DecksComponent: React.FC<Props> = () => {
+const DecksComponent: React.FC<Props> = (props) => {
+	const { decks, setSelectedDeck } = props
 	const [selected, setSelected] = useState<DeckName>(hiragana)
-	const onClickActive = (deckRecived: DeckName) => {
-		setSelected(deckRecived)
+	const onClickActive = (deck: Deck) => {
+		setSelectedDeck(deck)
+		setSelected(deck.name)
 	}
 
 	return (
 		<div className='decks'>
-			{decksAndSymbol.map((deckNameAndSymbol, index) => (
+			{Object.values(decks).map((deck, index) => (
 				<DeckBox
-					deckNameAndSymbol={deckNameAndSymbol}
+					deck={deck}
 					key={index}
 					onClickActive={onClickActive}
-					isSelected={deckNameAndSymbol.name === selected}
+					isSelected={deck.name === selected}
 				/>
 			))}
 		</div>

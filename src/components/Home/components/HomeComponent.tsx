@@ -1,20 +1,26 @@
-import Header from 'components/Header/containers/Header'
+// import Header from 'components/Header/containers/Header'
 import './HomeComponent.scss'
 import Decks from 'components/Decks/containers/Decks'
 import Card from 'components/Card/containers/Card'
+import { useState } from 'react'
+import { decks } from 'mock/decks'
+import { Deck } from 'models/Deck'
 
 const HomeComponent = () => {
+	const [selectedDeck, setSelectedDeck] = useState<Deck>(decks.hiragana)
+
 	return (
 		<div className='main'>
-			<div className='header'>
+			{/* TODO: COMMENTED FOR MVP RELEASE */}
+			{/* <div className='header'>
 				<Header />
-			</div>
+			</div> */}
 			<div className='body'>
 				<div className='decks'>
-					<Decks />
+					<Decks decks={decks} setSelectedDeck={setSelectedDeck} />
 				</div>
 				<div className='cards'>
-					<Card />
+					<Card deck={selectedDeck} />
 				</div>
 			</div>
 		</div>
