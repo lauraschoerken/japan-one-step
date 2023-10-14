@@ -8,8 +8,8 @@ import {
 } from 'utils/constants'
 export interface Card {
 	id: string
-	japanese_value: string
-	romanji_value: string | string[]
+	japanese_value: string[]
+	romanji_value: string[]
 	reverse: boolean
 }
 
