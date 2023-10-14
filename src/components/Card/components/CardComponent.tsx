@@ -18,33 +18,28 @@ interface Props {
 
 const CardComponent: React.FC<Props> = (props) => {
 	const { currentCard, nextCard } = props
-	const [guessedValue, setGuessedValue] = useState('')
+	const [guessedValue, setGuessedValue] = useState(false)
+	const [displayAnswer, setDisplayAnswer] = useState('')
 	const [card, setCard] = useState(currentCard)
 	const { t } = useTranslation()
 
-	let showValue
-	let guessValue
-
-	if (typeof card.romanji_value === 'string') {
-		showValue = card.reverse
-			? card.romanji_value.trim().toLowerCase()
-			: card.japanese_value.trim().toLowerCase()
-		guessValue = card.reverse
-			? card.japanese_value.trim().toLowerCase()
-			: card.romanji_value.trim().toLowerCase()
-	} else {
-		showValue = card.reverse
-			? card.romanji_value.join(' / ')
-			: card.japanese_value.trim().toLowerCase()
-		guessValue = card.reverse
-			? card.japanese_value.trim().toLowerCase()
-			: card.romanji_value.join(' / ')
+	let guessValue: string[] = []
+	const formatCard = (card: Card) => {
+		let formattedValue = ''
+		if (card.reverse) {
+			guessValue = card.japanese_value
+			card.romanji_value.map((romanji) => (formattedValue += `${romanji} `))
+		} else {
+			guessValue = card.romanji_value
+			card.japanese_value.map((japanese) => (formattedValue += `${japanese} `))
+		}
+		return formattedValue.trim()
 	}
 
 	useEffect(() => {
 		setCard(currentCard)
 		formik.resetForm()
-		setGuessedValue('')
+		setGuessedValue(false)
 	}, [currentCard])
 
 	const formik = useFormik({
@@ -60,12 +55,16 @@ const CardComponent: React.FC<Props> = (props) => {
 	})
 
 	const submit = (value: GuessValue) => {
-		setGuessedValue(value.guess_value.trim().toLowerCase())
+		setGuessedValue(true)
+		const exists = guessValue.find((guess) => guess === value.guess_value)
+		let answer = ''
+		guessValue.map((guess) => (answer += `${exists === guess ? `✅` : `❌`} ${guess} `))
+		setDisplayAnswer(answer.trim())
 	}
 
 	const onValidate = () => {
 		formik.resetForm()
-		setGuessedValue('')
+		setGuessedValue(false)
 		nextCard()
 	}
 
@@ -76,7 +75,7 @@ const CardComponent: React.FC<Props> = (props) => {
 	return (
 		<div className='card-main'>
 			<div className='show-value'>
-				<h2>{showValue}</h2>
+				<h2>{formatCard(card)}</h2>
 			</div>
 			<input
 				className='guess-value'
@@ -91,21 +90,7 @@ const CardComponent: React.FC<Props> = (props) => {
 			{guessedValue ? (
 				<React.Fragment>
 					<div className='guessed-value'>
-						{!guessValue.includes('/') ? (
-							<p>
-								{guessedValue === guessValue ? '✅' : '❌'}
-								{guessValue}
-							</p>
-						) : (
-							<p>
-								{guessValue.split(' / ').map((part, index) => (
-									<span key={index}>
-										{part === guessedValue ? '✅' : '❌'}
-										{part}
-									</span>
-								))}
-							</p>
-						)}
+						<p>{displayAnswer}</p>
 					</div>
 					<div className='buttons'>
 						{difficulties.map((difficulty, index) => (
