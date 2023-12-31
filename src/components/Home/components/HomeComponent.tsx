@@ -5,19 +5,19 @@ import Card from 'components/Card/containers/Card'
 import { useState } from 'react'
 import { decks } from 'mock/decks'
 import { Deck } from 'models/Deck'
+import Header from 'components/Header/containers/Header'
 
 const HomeComponent = () => {
 	const [selectedDeck, setSelectedDeck] = useState<Deck>(decks.hiragana)
 
 	return (
 		<div className='main'>
-			{/* TODO: COMMENTED FOR MVP RELEASE */}
-			{/* <div className='header'>
+			<div className='header'>
 				<Header />
-			</div> */}
+			</div>
 			<div className='body'>
 				<div className='decks'>
-					<Decks decks={decks} setSelectedDeck={setSelectedDeck} />
+					<Decks decks={decks} setSelectedDeck={setSelectedDeck} selectedDeck={selectedDeck} />
 				</div>
 				<div className='cards'>
 					<Card deck={selectedDeck} />
