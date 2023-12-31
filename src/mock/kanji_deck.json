@@ -1,602 +1,602 @@
 [
     {
         "id": "1",
-        "japanese_value": "人",
-        "romanji_value": "hito",
+        "japanese_value": ["人"],
+        "romanji_value": ["hito"],
         "reverse": false
     },
     {
         "id": "2",
-        "japanese_value": "日",
-        "romanji_value": "hi / nichi",
+        "japanese_value": ["日"],
+        "romanji_value": ["hi", "nichi"],
         "reverse": false
     },
     {
         "id": "3",
-        "japanese_value": "年",
-        "romanji_value": "nen / toshi",
+        "japanese_value": ["年"],
+        "romanji_value": ["nen", "toshi"],
         "reverse": false
     },
     {
         "id": "4",
-        "japanese_value": "時",
-        "romanji_value": "ji / toki",
+        "japanese_value": ["時"],
+        "romanji_value": ["ji", "toki"],
         "reverse": false
     },
     {
         "id": "5",
-        "japanese_value": "学",
-        "romanji_value": "gaku",
+        "japanese_value": ["学"],
+        "romanji_value": ["gaku"],
         "reverse": false
     },
     {
         "id": "6",
-        "japanese_value": "会",
-        "romanji_value": "kai",
+        "japanese_value": ["会"],
+        "romanji_value": ["kai"],
         "reverse": false
     },
     {
         "id": "7",
-        "japanese_value": "国",
-        "romanji_value": "kuni",
+        "japanese_value": ["国"],
+        "romanji_value": ["kuni"],
         "reverse": false
     },
     {
         "id": "8",
-        "japanese_value": "家",
-        "romanji_value": "ie / ya / ke",
+        "japanese_value": ["家"],
+        "romanji_value": ["ie", "ya", "ke"],
         "reverse": false
     },
     {
         "id": "9",
-        "japanese_value": "言",
-        "romanji_value": "gen / gon",
+        "japanese_value": ["言"],
+        "romanji_value": ["gen", "gon"],
         "reverse": false
     },
     {
         "id": "10",
-        "japanese_value": "時",
-        "romanji_value": "ji / toki",
+        "japanese_value": ["時"],
+        "romanji_value": ["ji", "toki"],
         "reverse": false
     },
     {
         "id": "11",
-        "japanese_value": "事",
-        "romanji_value": "koto / ji",
+        "japanese_value": ["事"],
+        "romanji_value": ["koto", "ji"],
         "reverse": false
     },
     {
         "id": "12",
-        "japanese_value": "年",
-        "romanji_value": "nen / toshi",
+        "japanese_value": ["年"],
+        "romanji_value": ["nen", "toshi"],
         "reverse": false
     },
     {
         "id": "13",
-        "japanese_value": "社",
-        "romanji_value": "sha / shakai",
+        "japanese_value": ["社"],
+        "romanji_value": ["sha", "shakai"],
         "reverse": false
     },
     {
         "id": "14",
-        "japanese_value": "中",
-        "romanji_value": "chuu / naka",
+        "japanese_value": ["中"],
+        "romanji_value": ["chuu", "naka"],
         "reverse": false
     },
     {
         "id": "15",
-        "japanese_value": "者",
-        "romanji_value": "sha / mono",
+        "japanese_value": ["者"],
+        "romanji_value": ["sha", "mono"],
         "reverse": false
     },
     {
         "id": "16",
-        "japanese_value": "前",
-        "romanji_value": "zen / mae",
+        "japanese_value": ["前"],
+        "romanji_value": ["zen", "mae"],
         "reverse": false
     },
     {
         "id": "17",
-        "japanese_value": "高",
-        "romanji_value": "kou / taka",
+        "japanese_value": ["高"],
+        "romanji_value": ["kou", "taka"],
         "reverse": false
     },
     {
         "id": "18",
-        "japanese_value": "思",
-        "romanji_value": "omou / shi",
+        "japanese_value": ["思"],
+        "romanji_value": ["omou", "shi"],
         "reverse": false
     },
     {
         "id": "19",
-        "japanese_value": "新",
-        "romanji_value": "shin / atarashii",
+        "japanese_value": ["新"],
+        "romanji_value": ["shin", "atarashii"],
         "reverse": false
     },
     {
         "id": "20",
-        "japanese_value": "発",
-        "romanji_value": "hatsu / tatsu",
+        "japanese_value": ["発"],
+        "romanji_value": ["hatsu", "tatsu"],
         "reverse": false
     },
     {
         "id": "21",
-        "japanese_value": "見",
-        "romanji_value": "miru / ken",
+        "japanese_value": ["見"],
+        "romanji_value": ["miru", "ken"],
         "reverse": false
     },
     {
         "id": "22",
-        "japanese_value": "行",
-        "romanji_value": "iku / gyou",
+        "japanese_value": ["行"],
+        "romanji_value": ["iku", "gyou"],
         "reverse": false
     },
     {
         "id": "23",
-        "japanese_value": "出",
-        "romanji_value": "deru / shutsu",
+        "japanese_value": ["出"],
+        "romanji_value": ["deru", "shutsu"],
         "reverse": false
     },
     {
         "id": "24",
-        "japanese_value": "入",
-        "romanji_value": "iru / nyuu",
+        "japanese_value": ["入"],
+        "romanji_value": ["iru", "nyuu"],
         "reverse": false
     },
     {
         "id": "25",
-        "japanese_value": "間",
-        "romanji_value": "aida / kan",
+        "japanese_value": ["間"],
+        "romanji_value": ["aida", "kan"],
         "reverse": false
     },
     {
         "id": "26",
-        "japanese_value": "語",
-        "romanji_value": "go",
+        "japanese_value": ["語"],
+        "romanji_value": ["go"],
         "reverse": false
     },
     {
         "id": "27",
-        "japanese_value": "手",
-        "romanji_value": "te",
+        "japanese_value": ["手"],
+        "romanji_value": ["te"],
         "reverse": false
     },
     {
         "id": "28",
-        "japanese_value": "子",
-        "romanji_value": "ko / shi",
+        "japanese_value": ["子"],
+        "romanji_value": ["ko", "shi"],
         "reverse": false
     },
     {
         "id": "29",
-        "japanese_value": "目",
-        "romanji_value": "me / moku",
+        "japanese_value": ["目"],
+        "romanji_value": ["me", "moku"],
         "reverse": false
     },
     {
         "id": "30",
-        "japanese_value": "分",
-        "romanji_value": "bun / wakaru",
+        "japanese_value": ["分"],
+        "romanji_value": ["bun", "wakaru"],
         "reverse": false
     },
     {
         "id": "31",
-        "japanese_value": "話",
-        "romanji_value": "hanasu / wa",
+        "japanese_value": ["話"],
+        "romanji_value": ["hanasu", "wa"],
         "reverse": false
     },
     {
         "id": "32",
-        "japanese_value": "言",
-        "romanji_value": "gen / gon",
+        "japanese_value": ["言"],
+        "romanji_value": ["gen", "gon"],
         "reverse": false
     },
     {
         "id": "33",
-        "japanese_value": "名",
-        "romanji_value": "na / mei",
+        "japanese_value": ["名"],
+        "romanji_value": ["na", "mei"],
         "reverse": false
     },
     {
         "id": "34",
-        "japanese_value": "今",
-        "romanji_value": "ima / kon",
+        "japanese_value": ["今"],
+        "romanji_value": ["ima", "kon"],
         "reverse": false
     },
     {
         "id": "35",
-        "japanese_value": "何",
-        "romanji_value": "nani / nan",
+        "japanese_value": ["何"],
+        "romanji_value": ["nani", "nan"],
         "reverse": false
     },
     {
         "id": "36",
-        "japanese_value": "小",
-        "romanji_value": "shou / chiisai",
+        "japanese_value": ["小"],
+        "romanji_value": ["shou", "chiisai"],
         "reverse": false
     },
     {
         "id": "37",
-        "japanese_value": "中",
-        "romanji_value": "chuu / naka",
+        "japanese_value": ["中"],
+        "romanji_value": ["chuu", "naka"],
         "reverse": false
     },
     {
         "id": "38",
-        "japanese_value": "校",
-        "romanji_value": "kou",
+        "japanese_value": ["校"],
+        "romanji_value": ["kou"],
         "reverse": false
     },
     {
         "id": "39",
-        "japanese_value": "見",
-        "romanji_value": "miru / ken",
+        "japanese_value": ["見"],
+        "romanji_value": ["miru", "ken"],
         "reverse": false
     },
     {
         "id": "40",
-        "japanese_value": "行",
-        "romanji_value": "iku / gyou",
+        "japanese_value": ["行"],
+        "romanji_value": ["iku", "gyou"],
         "reverse": false
     },
     {
         "id": "41",
-        "japanese_value": "思",
-        "romanji_value": "omou / shi",
+        "japanese_value": ["思"],
+        "romanji_value": ["omou", "shi"],
         "reverse": false
     },
     {
         "id": "42",
-        "japanese_value": "友",
-        "romanji_value": "tomo / yuu",
+        "japanese_value": ["友"],
+        "romanji_value": ["tomo", "yuu"],
         "reverse": false
     },
     {
         "id": "43",
-        "japanese_value": "高",
-        "romanji_value": "kou / taka",
+        "japanese_value": ["高"],
+        "romanji_value": ["kou", "taka"],
         "reverse": false
     },
     {
         "id": "44",
-        "japanese_value": "手",
-        "romanji_value": "te",
+        "japanese_value": ["手"],
+        "romanji_value": ["te"],
         "reverse": false
     },
     {
         "id": "45",
-        "japanese_value": "言",
-        "romanji_value": "gen / gon",
+        "japanese_value": ["言"],
+        "romanji_value": ["gen", "gon"],
         "reverse": false
     },
     {
         "id": "46",
-        "japanese_value": "子",
-        "romanji_value": "ko / shi",
+        "japanese_value": ["子"],
+        "romanji_value": ["ko", "shi"],
         "reverse": false
     },
     {
         "id": "47",
-        "japanese_value": "目",
-        "romanji_value": "me / moku",
+        "japanese_value": ["目"],
+        "romanji_value": ["me", "moku"],
         "reverse": false
     },
     {
         "id": "48",
-        "japanese_value": "分",
-        "romanji_value": "bun / wakaru",
+        "japanese_value": ["分"],
+        "romanji_value": ["bun", "wakaru"],
         "reverse": false
     },
     {
         "id": "49",
-        "japanese_value": "話",
-        "romanji_value": "hanasu / wa",
+        "japanese_value": ["話"],
+        "romanji_value": ["hanasu", "wa"],
         "reverse": false
     },
     {
         "id": "50",
-        "japanese_value": "名",
-        "romanji_value": "na / mei",
+        "japanese_value": ["名"],
+        "romanji_value": ["na", "mei"],
         "reverse": false
     },
     {
         "id": "51",
-        "japanese_value": "長",
-        "romanji_value": "naga / chou",
+        "japanese_value": ["長"],
+        "romanji_value": ["naga", "chou"],
         "reverse": false
     },
     {
         "id": "52",
-        "japanese_value": "所",
-        "romanji_value": "tokoro / sho",
+        "japanese_value": ["所"],
+        "romanji_value": ["tokoro", "sho"],
         "reverse": false
     },
     {
         "id": "53",
-        "japanese_value": "年",
-        "romanji_value": "nen / toshi",
+        "japanese_value": ["年"],
+        "romanji_value": ["nen", "toshi"],
         "reverse": false
     },
     {
         "id": "54",
-        "japanese_value": "時",
-        "romanji_value": "ji / toki",
+        "japanese_value": ["時"],
+        "romanji_value": ["ji", "toki"],
         "reverse": false
     },
     {
         "id": "55",
-        "japanese_value": "間",
-        "romanji_value": "aida / kan",
+        "japanese_value": ["間"],
+        "romanji_value": ["aida", "kan"],
         "reverse": false
     },
     {
         "id": "56",
-        "japanese_value": "事",
-        "romanji_value": "koto / ji",
+        "japanese_value": ["事"],
+        "romanji_value": ["koto", "ji"],
         "reverse": false
     },
     {
         "id": "57",
-        "japanese_value": "人",
-        "romanji_value": "hito",
+        "japanese_value": ["人"],
+        "romanji_value": ["hito"],
         "reverse": false
     },
     {
         "id": "58",
-        "japanese_value": "本",
-        "romanji_value": "hon / moto",
+        "japanese_value": ["本"],
+        "romanji_value": ["hon", "moto"],
         "reverse": false
     },
     {
         "id": "59",
-        "japanese_value": "手",
-        "romanji_value": "te",
+        "japanese_value": ["手"],
+        "romanji_value": ["te"],
         "reverse": false
     },
     {
         "id": "60",
-        "japanese_value": "新",
-        "romanji_value": "shin / atarashii",
+        "japanese_value": ["新"],
+        "romanji_value": ["shin", "atarashii"],
         "reverse": false
     },
     {
         "id": "61",
-        "japanese_value": "話",
-        "romanji_value": "hanasu / wa",
+        "japanese_value": ["話"],
+        "romanji_value": ["hanasu", "wa"],
         "reverse": false
     },
     {
         "id": "62",
-        "japanese_value": "出",
-        "romanji_value": "deru / shutsu",
+        "japanese_value": ["出"],
+        "romanji_value": ["deru", "shutsu"],
         "reverse": false
     },
     {
         "id": "63",
-        "japanese_value": "社",
-        "romanji_value": "sha / shakai",
+        "japanese_value": ["社"],
+        "romanji_value": ["sha", "shakai"],
         "reverse": false
     },
     {
         "id": "64",
-        "japanese_value": "行",
-        "romanji_value": "iku / gyou",
+        "japanese_value": ["行"],
+        "romanji_value": ["iku", "gyou"],
         "reverse": false
     },
     {
         "id": "65",
-        "japanese_value": "校",
-        "romanji_value": "kou",
+        "japanese_value": ["校"],
+        "romanji_value": ["kou"],
         "reverse": false
     },
     {
         "id": "66",
-        "japanese_value": "生",
-        "romanji_value": "sei / shou / iku",
+        "japanese_value": ["生"],
+        "romanji_value": ["sei", "shou", "iku"],
         "reverse": false
     },
     {
         "id": "67",
-        "japanese_value": "学",
-        "romanji_value": "gaku",
+        "japanese_value": ["学"],
+        "romanji_value": ["gaku"],
         "reverse": false
     },
     {
         "id": "68",
-        "japanese_value": "知",
-        "romanji_value": "chi / shiru",
+        "japanese_value": ["知"],
+        "romanji_value": ["chi", "shiru"],
         "reverse": false
     },
     {
         "id": "69",
-        "japanese_value": "国",
-        "romanji_value": "kuni",
+        "japanese_value": ["国"],
+        "romanji_value": ["kuni"],
         "reverse": false
     },
     {
         "id": "70",
-        "japanese_value": "家",
-        "romanji_value": "ie / ya / ke",
+        "japanese_value": ["家"],
+        "romanji_value": ["ie", "ya", "ke"],
         "reverse": false
     },
     {
         "id": "71",
-        "japanese_value": "大",
-        "romanji_value": "dai / tai",
+        "japanese_value": ["大"],
+        "romanji_value": ["dai", "tai"],
         "reverse": false
     },
     {
         "id": "72",
-        "japanese_value": "会",
-        "romanji_value": "kai",
+        "japanese_value": ["会"],
+        "romanji_value": ["kai"],
         "reverse": false
     },
     {
         "id": "73",
-        "japanese_value": "社",
-        "romanji_value": "sha / shakai",
+        "japanese_value": ["社"],
+        "romanji_value": ["sha", "shakai"],
         "reverse": false
     },
     {
         "id": "74",
-        "japanese_value": "中",
-        "romanji_value": "chuu / naka",
+        "japanese_value": ["中"],
+        "romanji_value": ["chuu", "naka"],
         "reverse": false
     },
     {
         "id": "75",
-        "japanese_value": "自",
-        "romanji_value": "ji",
+        "japanese_value": ["自"],
+        "romanji_value": ["ji"],
         "reverse": false
     },
     {
         "id": "76",
-        "japanese_value": "発",
-        "romanji_value": "hatsu / tatsu",
+        "japanese_value": ["発"],
+        "romanji_value": ["hatsu", "tatsu"],
         "reverse": false
     },
     {
         "id": "77",
-        "japanese_value": "大",
-        "romanji_value": "dai / tai",
+        "japanese_value": ["大"],
+        "romanji_value": ["dai", "tai"],
         "reverse": false
     },
     {
         "id": "78",
-        "japanese_value": "市",
-        "romanji_value": "shi / ichi",
+        "japanese_value": ["市"],
+        "romanji_value": ["shi", "ichi"],
         "reverse": false
     },
     {
         "id": "79",
-        "japanese_value": "住",
-        "romanji_value": "sumu / juu",
+        "japanese_value": ["住"],
+        "romanji_value": ["sumu", "juu"],
         "reverse": false
     },
     {
         "id": "80",
-        "japanese_value": "事",
-        "romanji_value": "koto / ji",
+        "japanese_value": ["事"],
+        "romanji_value": ["koto", "ji"],
         "reverse": false
     },
     {
         "id": "81",
-        "japanese_value": "社",
-        "romanji_value": "sha / shakai",
+        "japanese_value": ["社"],
+        "romanji_value": ["sha", "shakai"],
         "reverse": false
     },
     {
         "id": "82",
-        "japanese_value": "方",
-        "romanji_value": "hou / kata",
+        "japanese_value": ["方"],
+        "romanji_value": ["hou", "kata"],
         "reverse": false
     },
     {
         "id": "83",
-        "japanese_value": "新",
-        "romanji_value": "shin / atarashii",
+        "japanese_value": ["新"],
+        "romanji_value": ["shin", "atarashii"],
         "reverse": false
     },
     {
         "id": "84",
-        "japanese_value": "場",
-        "romanji_value": "ba / jou",
+        "japanese_value": ["場"],
+        "romanji_value": ["ba", "jou"],
         "reverse": false
     },
     {
         "id": "85",
-        "japanese_value": "代",
-        "romanji_value": "dai / kawaru",
+        "japanese_value": ["代"],
+        "romanji_value": ["dai", "kawaru"],
         "reverse": false
     },
     {
         "id": "86",
-        "japanese_value": "内",
-        "romanji_value": "uchi",
+        "japanese_value": ["内"],
+        "romanji_value": ["uchi"],
         "reverse": false
     },
     {
         "id": "87",
-        "japanese_value": "同",
-        "romanji_value": "dou / onaji",
+        "japanese_value": ["同"],
+        "romanji_value": ["dou", "onaji"],
         "reverse": false
     },
     {
         "id": "88",
-        "japanese_value": "場",
-        "romanji_value": "ba / jou",
+        "japanese_value": ["場"],
+        "romanji_value": ["ba", "jou"],
         "reverse": false
     },
     {
         "id": "89",
-        "japanese_value": "者",
-        "romanji_value": "sha / mono",
+        "japanese_value": ["者"],
+        "romanji_value": ["sha", "mono"],
         "reverse": false
     },
     {
         "id": "90",
-        "japanese_value": "物",
-        "romanji_value": "mono",
+        "japanese_value": ["物"],
+        "romanji_value": ["mono"],
         "reverse": false
     },
     {
         "id": "91",
-        "japanese_value": "発",
-        "romanji_value": "hatsu / tatsu",
+        "japanese_value": ["発"],
+        "romanji_value": ["hatsu", "tatsu"],
         "reverse": false
     },
     {
         "id": "92",
-        "japanese_value": "者",
-        "romanji_value": "sha / mono",
+        "japanese_value": ["者"],
+        "romanji_value": ["sha", "mono"],
         "reverse": false
     },
     {
         "id": "93",
-        "japanese_value": "楽",
-        "romanji_value": "raku / tanoshii",
+        "japanese_value": ["楽"],
+        "romanji_value": ["raku", "tanoshii"],
         "reverse": false
     },
     {
         "id": "94",
-        "japanese_value": "思",
-        "romanji_value": "omou",
+        "japanese_value": ["思"],
+        "romanji_value": ["omou"],
         "reverse": false
     },
     {
         "id": "95",
-        "japanese_value": "死",
-        "romanji_value": "shi / shinu",
+        "japanese_value": ["死"],
+        "romanji_value": ["shi", "shinu"],
         "reverse": false
     },
     {
         "id": "96",
-        "japanese_value": "多",
-        "romanji_value": "ooi / ta",
+        "japanese_value": ["多"],
+        "romanji_value": ["ooi", "ta"],
         "reverse": false
     },
     {
         "id": "97",
-        "japanese_value": "仕",
-        "romanji_value": "shi / tsukaeru",
+        "japanese_value": ["仕"],
+        "romanji_value": ["shi", "tsukaeru"],
         "reverse": false
     },
     {
         "id": "98",
-        "japanese_value": "問",
-        "romanji_value": "mondai / toi",
+        "japanese_value": ["問"],
+        "romanji_value": ["mondai", "toi"],
         "reverse": false
     },
     {
         "id": "99",
-        "japanese_value": "持",
-        "romanji_value": "motsu / jin",
+        "japanese_value": ["持"],
+        "romanji_value": ["motsu", "jin"],
         "reverse": false
     },
     {
         "id": "100",
-        "japanese_value": "業",
-        "romanji_value": "gyou",
+        "japanese_value": ["業"],
+        "romanji_value": ["gyou"],
         "reverse": false
     }
 ]
