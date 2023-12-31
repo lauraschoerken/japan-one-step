@@ -8,6 +8,7 @@ import eslint from 'vite-plugin-eslint'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+	base: '/japan-one-step/',
 	plugins: [react(), eslint()],
 	resolve: {
 		alias: {
